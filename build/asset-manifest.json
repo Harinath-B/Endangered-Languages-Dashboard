@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.056e8617.css",
+    "main.js": "/static/js/main.720af361.js",
+    "static/media/dataset.csv": "/static/media/dataset.062187083d54a48c1e82.csv",
+    "static/media/countries.geojson": "/static/media/countries.1c616eb00e9f685e8b22.geojson",
+    "index.html": "/index.html",
+    "main.056e8617.css.map": "/static/css/main.056e8617.css.map",
+    "main.720af361.js.map": "/static/js/main.720af361.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.056e8617.css",
+    "static/js/main.720af361.js"
+  ]
+}

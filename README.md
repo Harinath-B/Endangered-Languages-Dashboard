@@ -11,7 +11,7 @@ This project visualizes endangered languages worldwide using multiple interactiv
 2. **Choropleth Map**  
    A map view with aggregated data per country.
 3. **Bar Chart**  
-   Compares endangered languages across regions.
+   Compares endangered languages across families.
 5. **Filters**  
    Allows filtering by:
    - Endangerment Status
@@ -39,7 +39,7 @@ This project visualizes endangered languages worldwide using multiple interactiv
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/endangered-languages-dashboard.git
+   git clone https://github.com/Harinath-B/endangered-languages-dashboard.git
    cd endangered-languages-dashboard
    ```
 
@@ -70,8 +70,7 @@ This project visualizes endangered languages worldwide using multiple interactiv
 - **`App.js`**: Main entry point managing navigation and state.
 - **`Globe.js`**: Displays a 3D rotating globe with data points.
 - **`ChoroplethMap.js`**: Renders the choropleth map with tooltips.
-- **`BarChart.js`**: Interactive bar chart with filters.
-- **`SankeyDiagram.js`**: Renders the Sankey diagram showing relationships.
+- **`BarChart.js`**: Interactive bar chart with region filters.
 - **`Filters.js`**: Sidebar filters for data manipulation.
 
 ---

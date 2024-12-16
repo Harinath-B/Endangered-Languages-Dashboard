@@ -2,10 +2,8 @@
   "name": "endangered-languages-dashboard",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://Harinath-B.github.io/Endangered-Languages-Dashboard",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    
     "start": "GENERATE_SOURCEMAP=false react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test"

@@ -3,8 +3,8 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Html } from "@react-three/drei";
 import * as THREE from "three";
 
-const earthTexture = new THREE.TextureLoader().load("textures/earth.jpg");
-const bumpMap = new THREE.TextureLoader().load("textures/earth_bump.jpg");
+const earthTexture = new THREE.TextureLoader().load("/textures/earth.jpg");
+
 
 const statusColors = {
   Vulnerable: "#FFD700",
@@ -54,7 +54,7 @@ const Globe = ({ data }) => {
 
         <mesh>
           <sphereGeometry args={[3, 64, 64]} />
-          <meshStandardMaterial map={earthTexture} bumpMap={bumpMap} bumpScale={0.05} />
+          <meshStandardMaterial map={earthTexture}/>
         </mesh>
 
         {data.map((language, idx) => {

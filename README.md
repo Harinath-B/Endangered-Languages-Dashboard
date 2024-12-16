@@ -5,6 +5,8 @@ This project visualizes endangered languages worldwide using multiple interactiv
 - A Choropleth Map displaying aggregated endangered languages per country
 - A Bar Chart grouped by regions
 
+Check out this project at [Endangered-Languages-dashboard](https://endangered-languages-dashboard.vercel.app/)
+
 ## **Features**
 1. **3D Globe**  
    Displays languages with colored markers based on their endangerment status.
